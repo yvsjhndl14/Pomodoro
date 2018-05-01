@@ -2,7 +2,7 @@ import _ from 'underscore'
 
 // Thanks to this great tutorial: http://noisehack.com/generate-noise-web-audio-api/
 var audioContext, bufferSize, noise;
-audioContext = new (window.AudioContext || window.webkitAudioContext)();
+audioContext = new (window.audioContext || window.webkitAudioContext);
 
 function generateWhiteNoise() {
   var noiseBuffer, output;

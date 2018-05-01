@@ -1,6 +1,8 @@
 # shopping-list
+[![Build Status](https://travis-ci.org/yvsjhndl14/Pomodoro.svg?branch=master)](https://travis-ci.org/yvsjhndl14/Pomodoro)
 
 > Pomodoro application
+
 
 ## Build Setup
 

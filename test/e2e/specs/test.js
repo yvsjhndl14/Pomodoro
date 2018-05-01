@@ -3,7 +3,7 @@ module.exports = {
     // open the browser add check that #app is on the page
     browser.url('http://localhost:8080').waitForElementVisible('#app', 5000);
 
-    browser.expect.element('logo').to.not.be.visible
+    // browser.expect.element('logo').to.not.be.visible
     // check the toggle-volume icon is not visible
     browser.expect.element('.toggle-volume').to.not.be.visible
     // check that pause button is disabled
